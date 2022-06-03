@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: UthmanicHafs_V20;
+    src: url(UthmanicHafs_V20.ttf);
+}
+@font-face {
+    font-family: UthmanicHafs1B\ Ver13;
+    src: url(UthmanicHafs1B\ Ver13.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container {
+    /* background-color: red; */
+    /* padding: 10px; */
+    box-sizing: border-box;
+    width: 100%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-container {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-title {
+    /* background-color: orange; */
 }
 
-.App-link {
-  color: #61dafb;
+.surahs-container {
+    /* background-color: red; */
+    border: 5px solid rgb(3, 184, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.surahs-title {
+    /* background-color: blue; */
+}
+
+.surahs-name {
+    /* background-color: rgb(118, 255, 173); */
+    direction: rtl;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.surah {
+    /* background-color: red; */
+    padding: 10px;
+    margin: 10px 5px;
+    border: 1px solid rgb(3, 184, 0);
+    border-radius: 10px;
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+}
+
+.surah:hover,
+.back:hover ,.translation:hover,select:hover{
+    /* transform: translate(3px,-5px); */
+    background-color: rgb(3, 184, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.surah:active {
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.95);
+}
+
+/* surah page */
+
+.surah-page {
+    /* background-color: red; */
+    /* padding: 10px; */
+}
+
+.back {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(3, 184, 0);
+}
+.translation{
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(3, 184, 0);
+}
+
+.surah-container {
+    /* background-color: rgb(118, 255, 173); */
+    border: 5px solid rgb(3, 184, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+
+}
+
+.surah-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ar {
+    direction: rtl;
+}
+
+
+.verse {
+    /* background-color: red; */
+    margin: auto;
+    width: 70%;
+    direction: rtl;
+    /* display: inline; */
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.start-surah{
+    font-family: UthmanicHafs1B\ Ver13;
+    font-size: 40px;
+}
+.ayah {
+    font-family: UthmanicHafs_V20;
+    font-size: 40px;
+}
+.text{
+    /* background-color: pink; */
+    margin: 0;
+    text-align: center;
+}
+
+/* translation phase */
+
+.translation-container{
+    /* padding: 10px; */
+}
+.translationAya{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+select{
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(3, 184, 0);
+    outline: none;
+}
+
+.nav{
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 0.9);
+    padding: 10px;
+    width: 100%;
+    position:sticky;
+    top: 0;
 }
