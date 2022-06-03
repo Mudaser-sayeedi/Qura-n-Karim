@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Qura'n-Karim/static/css/main.f669c22c.css",
+    "main.js": "/Qura'n-Karim/static/js/main.11dd7c53.js",
+    "static/js/787.35507424.chunk.js": "/Qura'n-Karim/static/js/787.35507424.chunk.js",
+    "static/media/UthmanicHafs_V20.ttf": "/Qura'n-Karim/static/media/UthmanicHafs_V20.85095ef645febb7efb17.ttf",
+    "static/media/UthmanicHafs1B Ver13.ttf": "/Qura'n-Karim/static/media/UthmanicHafs1B Ver13.2f55b01fbc0ecc4473dd.ttf",
+    "service-worker.js": "/Qura'n-Karim/service-worker.js",
+    "index.html": "/Qura'n-Karim/index.html",
+    "main.f669c22c.css.map": "/Qura'n-Karim/static/css/main.f669c22c.css.map",
+    "main.11dd7c53.js.map": "/Qura'n-Karim/static/js/main.11dd7c53.js.map",
+    "787.35507424.chunk.js.map": "/Qura'n-Karim/static/js/787.35507424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f669c22c.css",
+    "static/js/main.11dd7c53.js"
+  ]
+}
